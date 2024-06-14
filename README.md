@@ -1,13 +1,7 @@
-# flutter_embed_unity_android_example
+# Elemento App
 
-Demonstrates how to use the flutter_embed_unity_2022_3_android package
-
-## Getting Started
-
-- Checkout this repository
-- Create a folder called `unityLibrary` at:
-  - `flutter_embed_unity/flutter_embed_unity_2022_3_android/example/android/unityLibrary`
-- Install Unity 2022.3 LTS
-- Open [the example Unity project](https://github.com/jamesncl/flutter_embed_unity/tree/main/example_unity_2022_3_project)
-- In Unity, go to `Flutter Embed -> Export project to Flutter app (Android)`, and choose the export folder you created earlier
-- Now run the example Flutter project `flutter_embed_unity/flutter_embed_unity_2022_3_android/example`
+## Chemistry AR (Unity)
+- Clone and import [Chemistry AR](https://github.com/MiroslavShard/chemistry-ar) to Unity Editor
+- Download [flutter_embed_unity](https://github.com/learntoflutter/flutter_embed_unity) version `1.1.0` in releases page then import it to Unity Editor
+- Select `Flutter Embed` then export project to flutter app (Android)
+- Choose path to `<flutter_project>/android/` and it will generate `UnityLibrary` folder
